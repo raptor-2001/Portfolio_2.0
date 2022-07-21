@@ -21,7 +21,7 @@ a{
     text-decoration: none;
 }
 h1{
-    color: white;
+    color: rgb(214, 5, 5);;
 }
 /* Utility Classes */
 
@@ -49,6 +49,7 @@ color: #fff;}
     font-size: 3rem;
     margin-bottom: 1rem;
     line-height: 3rem;
+    color:white;
 }
 
 .m_heading{
