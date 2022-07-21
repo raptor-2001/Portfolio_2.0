@@ -16,10 +16,12 @@
 
 /* Smartphones */
 @media(max-width: 540px){
+  
  #navbar{
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     top: -1px;
+    
  }
 
  #navbar .logo{
@@ -28,9 +30,13 @@
  }
 
  #navbar ul{
-     padding: 0.5rem;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 15px;
  }
 
+ 
+ 
 
  #showcase .showcase_content{
      top: 110px;
