@@ -10,6 +10,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
+    overflow-x:hidden;
 }
 
 p{
@@ -135,7 +136,7 @@ color: #fff;}
     color: #1c1c1c;
     font-weight: bold;
     padding: 0.75rem;
-    margin: 0 0.5rem;
+    margin: 0 0.2rem;
 }
 
 #navbar ul li a:hover{
@@ -192,7 +193,6 @@ color: #fff;}
 }
 
 /* Sections : Contact  */
-
 #contact{
     display:flex;
 }
@@ -222,7 +222,6 @@ color: #fff;}
 }
 
 
-/* Footer */
 
 /* Footer */
 
@@ -231,11 +230,9 @@ footer{
   width: 100%;
 }
 .footer-content{
-	margin: 0;
-	padding: 0;
+	
 	box-sizing: border-box;
 	background-color:#1c1c1c;
-	max-width: 100%;
 	font-family: "Open Sans";
 	padding-top: 40px ;
 	color: white;
