@@ -174,10 +174,39 @@ color: #fff;}
 #about{
   height: 100vh;
 }
-/* Section : Skills */
+
+
+/* Section : Services */
 #services{
-  height: 100vh;
+  height: auto;
 }
+.service_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service_box{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+.service_img{
+    width: 200px;
+    height: 200px;
+}
+#web_dev{
+    flex: 0.5 50%;
+    border: 2px solid #444;
+}
+#app_dev{
+    flex: 0.5 50%;
+    border: 2px solid #444;
+}
+#content_writing{
+    border: 2px solid #444;
+}
+
+
 /* Section : Experience */
 #project{
   height: 100vh;
